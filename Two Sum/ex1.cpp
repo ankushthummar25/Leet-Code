@@ -19,6 +19,14 @@ int main()
     {
         cout<<" "<<a[i];
     }
+
+    for(int i=0 ; i<10 ; i++)
+    {
+        for(int j=i ; j<n ; j++)
+        {
+        cout<<" "<<a[i];
+        }
+    }
     
     // cout << "\n\nEnter First Array  : ";
     // cin >> a[n];
