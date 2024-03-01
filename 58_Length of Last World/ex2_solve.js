@@ -14,3 +14,21 @@ Example 2:
     Explanation: The last word is "moon" with length 4.
 
 */
+
+
+const s = "   fly me   to   the moon   ";
+
+function lengthOfLastWord(s) 
+{
+   s = s.trim();
+   const words = s.split(" ");
+   const lastWord = words[words.length - 1];
+
+   return lastWord.length;
+}
+
+
+const output = lengthOfLastWord(s);
+console.log(output); 
+
+// => Output: 4

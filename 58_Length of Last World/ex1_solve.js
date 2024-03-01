@@ -13,3 +13,21 @@ Example 1:
     Output     : 5
     Explanation: The last word is "World" with length 5.
 */
+
+
+const s = "Hello World";
+
+function lengthOfLastWord(s) 
+{
+   s = s.trim();
+   const words = s.split(" ");
+   const lastWord = words[words.length - 1];
+
+   return lastWord.length;
+}
+
+
+const output = lengthOfLastWord(s);
+console.log(output); 
+
+// => Output: 5
